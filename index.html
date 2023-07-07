@@ -1,0 +1,24 @@
+
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/data.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+   <script src="wbp.js"></script>
+
+<div id="container"></div>
+<button onclick="gotoLink(this)" value= "https://mc265.github.io/industrial-rw-expo/">Industrial Roundwood</button>
+<button onclick="gotoLink(this)" value= "https://mc265.github.io/wood-pulp-export/">Wood pulp</button>
+<button onclick="gotoLink(this)" value= "https://mc265.github.io/paper-and-paperboardex/">Paper and paperboard</button>
+<button onclick="gotoLink(this)" value= "https://mc265.github.io/Sawnwood-ex/">Sawnwood</button>
+<button onclick="gotoLink(this)" value= "https://mc265.github.io/wood-agglomerates/">Wood pellets and agglomerates</button>
+<script>
+ function gotoLink(link){
+    console.log(link.value);
+    location.href=link.value;
+  };
+  </script>
+<p class="highcharts-description">
+          Forest products export  from 1961 to 2021.
+    </p>
+</figure>
